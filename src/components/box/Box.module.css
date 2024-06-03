@@ -1,0 +1,382 @@
+.box{
+    box-shadow: 0 0 5px 1px black;
+    border: none;
+    width:400px;
+    height:300px;
+    display: flex;
+    border-radius: 20px;;
+    overflow: hidden;
+    margin:2% auto;
+    flex-direction: column;
+    background: linear-gradient(135deg, rgba(145,225,255,0.5013655120251226) 0%, rgba(145,255,254,0.5013655120251226) 100%);
+}
+.circle{
+    display: flex;
+    justify-content: center;
+    margin:0 auto;
+height:150px;
+width:150px;
+
+margin-top:-15%;
+border-radius: 50%;
+box-shadow: 0 0 3px 1px #222;
+}
+.icon{
+    width:100%;
+    margin-top:50px;
+  align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.title{
+    font-size: 2rem;
+    font-family: "Assistant";
+    text-align: center;
+    margin:5% auto 1%;
+    direction: rtl;
+}
+.description{
+
+    font-size: 1.2rem;
+    font-family: "AssistantR";
+    text-align: center;
+    margin:2% auto;
+    direction: rtl;
+    width: 90%;;
+}
+@media only screen and (max-width: 350px) {
+    .box{
+        box-shadow: 0 0 5px 1px black;
+        border: none;
+        width:300px;
+        height:200px;
+        margin:2% auto;
+        display: flex;
+        border-radius: 20px;;
+        overflow: hidden;
+        flex-direction: column;
+        background: linear-gradient(135deg, rgba(145,225,255,0.5013655120251226) 0%, rgba(145,255,254,0.5013655120251226) 100%);
+    }
+    .circle{
+        display: flex;
+        justify-content: center;
+        margin:0 auto;
+    height:100px;
+    width:100px;
+    
+    margin-top:-15%;
+    border-radius: 50%;
+    box-shadow: 0 0 3px 1px #222;
+    }
+    .icon{
+        width:100%;
+        margin-top:35px;
+      align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .title{
+        font-size: 1.8rem;
+        font-family: "Assistant";
+        text-align: center;
+        margin:5% auto 1%;
+        direction: rtl;
+    }
+    .description{
+    
+        font-size: 1.1rem;
+        font-family: "AssistantR";
+        text-align: center;
+        margin:2% auto;
+        direction: rtl;
+        width: 90%;;
+    }
+}
+@media only screen and (min-width: 350px) and (max-width: 450px) {
+    .box{
+        box-shadow: 0 0 5px 1px black;
+        border: none;
+        width:320px;
+        height:200px;
+        margin:2% auto;
+        display: flex;
+        border-radius: 20px;;
+        overflow: hidden;
+        flex-direction: column;
+        background: linear-gradient(135deg, rgba(145,225,255,0.5013655120251226) 0%, rgba(145,255,254,0.5013655120251226) 100%);
+    }
+    .circle{
+        display: flex;
+        justify-content: center;
+        margin:0 auto;
+    height:120px;
+    width:120px;
+    
+    margin-top:-15%;
+    border-radius: 50%;
+    box-shadow: 0 0 3px 1px #222;
+    }
+    .icon{
+        width:100%;
+        margin-top:40px;
+      align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .title{
+        font-size: 1.8rem;
+        font-family: "Assistant";
+        text-align: center;
+        margin:5% auto 1%;
+        direction: rtl;
+    }
+    .description{
+    
+        font-size: 1.1rem;
+        font-family: "AssistantR";
+        text-align: center;
+        margin:2% auto;
+        direction: rtl;
+        width: 90%;;
+    }
+}
+@media only screen and (min-width: 450px) and (max-width: 550px) {
+    .box{
+        box-shadow: 0 0 5px 1px black;
+        border: none;
+        width:350px;
+        height:220px;
+        margin:2% auto;
+        display: flex;
+        border-radius: 20px;;
+        overflow: hidden;
+        flex-direction: column;
+        background: linear-gradient(135deg, rgba(145,225,255,0.5013655120251226) 0%, rgba(145,255,254,0.5013655120251226) 100%);
+    }
+    .circle{
+        display: flex;
+        justify-content: center;
+        margin:0 auto;
+    height:125px;
+    width:125px;
+    
+    margin-top:-15%;
+    border-radius: 50%;
+    box-shadow: 0 0 3px 1px #222;
+    }
+    .icon{
+        width:100%;
+        margin-top:40px;
+      align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .title{
+        font-size: 2rem;
+        font-family: "Assistant";
+        text-align: center;
+        margin:5% auto 1%;
+        direction: rtl;
+    }
+    .description{
+    
+        font-size: 1.2rem;
+        font-family: "AssistantR";
+        text-align: center;
+        margin:2% auto;
+        direction: rtl;
+        width: 90%;;
+    }
+}
+@media only screen and (min-width: 550px) and (max-width: 650px) {
+    .box{
+        box-shadow: 0 0 5px 1px black;
+        border: none;
+        width:370px;
+        height:250px;
+        margin:2% auto;
+        display: flex;
+        border-radius: 20px;;
+        overflow: hidden;
+        flex-direction: column;
+        background: linear-gradient(135deg, rgba(145,225,255,0.5013655120251226) 0%, rgba(145,255,254,0.5013655120251226) 100%);
+    }
+    .circle{
+        display: flex;
+        justify-content: center;
+        margin:0 auto;
+    height:140px;
+    width:140px;
+    
+    margin-top:-15%;
+    border-radius: 50%;
+    box-shadow: 0 0 3px 1px #222;
+    }
+    .icon{
+        width:80%;
+        margin-top:45px;
+      align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .title{
+        font-size: 2rem;
+        font-family: "Assistant";
+        text-align: center;
+        margin:5% auto 1%;
+        direction: rtl;
+    }
+    .description{
+    
+        font-size: 1.2rem;
+        font-family: "AssistantR";
+        text-align: center;
+        margin:2% auto;
+        direction: rtl;
+        width: 90%;;
+    }
+}
+@media only screen and (min-width: 650px) and (max-width: 750px) {
+    .box{
+        box-shadow: 0 0 5px 1px black;
+        border: none;
+        width:400px;
+        height:270px;
+        margin:2% auto;
+        display: flex;
+        border-radius: 20px;;
+        overflow: hidden;
+        flex-direction: column;
+        background: linear-gradient(135deg, rgba(145,225,255,0.5013655120251226) 0%, rgba(145,255,254,0.5013655120251226) 100%);
+    }
+    .circle{
+        display: flex;
+        justify-content: center;
+        margin:0 auto;
+    height:150px;
+    width:150px;
+    
+    margin-top:-15%;
+    border-radius: 50%;
+    box-shadow: 0 0 3px 1px #222;
+    }
+    .icon{
+        width:70%;
+        margin-top:45px;
+      align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .title{
+        font-size: 2rem;
+        font-family: "Assistant";
+        text-align: center;
+        margin:5% auto 1%;
+        direction: rtl;
+    }
+    .description{
+    
+        font-size: 1.2rem;
+        font-family: "AssistantR";
+        text-align: center;
+        margin:2% auto;
+        direction: rtl;
+        width: 90%;;
+    }
+}
+@media only screen and (min-width: 750px) and (max-width: 950px) {
+    .box{
+        box-shadow: 0 0 5px 1px black;
+        border: none;
+        width:360px;
+        height:270px;
+        margin:2% auto;
+        display: flex;
+        border-radius: 20px;;
+        overflow: hidden;
+        flex-direction: column;
+        background: linear-gradient(135deg, rgba(145,225,255,0.5013655120251226) 0%, rgba(145,255,254,0.5013655120251226) 100%);
+    }
+    .circle{
+        display: flex;
+        justify-content: center;
+        margin:0 auto;
+    height:140px;
+    width:140px;
+    
+    margin-top:-15%;
+    border-radius: 50%;
+    box-shadow: 0 0 3px 1px #222;
+    }
+    .icon{
+        width:65%;
+        margin-top:45px;
+      align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .title{
+        font-size: 2rem;
+        font-family: "Assistant";
+        text-align: center;
+        margin:5% auto 1%;
+        direction: rtl;
+    }
+    .description{
+    
+        font-size: 1.25rem;
+        font-family: "AssistantR";
+        text-align: center;
+        margin:2% auto;
+        direction: rtl;
+        width: 90%;;
+    }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1350px) {
+    .box{
+        box-shadow: 0 0 5px 1px black;
+        border: none;
+        width:360px;
+        height:270px;
+        margin:2% auto;
+        display: flex;
+        border-radius: 20px;;
+        overflow: hidden;
+        flex-direction: column;
+        background: linear-gradient(135deg, rgba(145,225,255,0.5013655120251226) 0%, rgba(145,255,254,0.5013655120251226) 100%);
+    }
+    .circle{
+        display: flex;
+        justify-content: center;
+        margin:0 auto;
+    height:140px;
+    width:140px;
+    
+    margin-top:-15%;
+    border-radius: 50%;
+    box-shadow: 0 0 3px 1px #222;
+    }
+    .icon{
+        width:65%;
+        margin-top:45px;
+      align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .title{
+        font-size: 2rem;
+        font-family: "Assistant";
+        text-align: center;
+        margin:5% auto 1%;
+        direction: rtl;
+    }
+    .description{
+    
+        font-size: 1.25rem;
+        font-family: "AssistantR";
+        text-align: center;
+        margin:2% auto;
+        direction: rtl;
+        width: 90%;;
+    }
+}

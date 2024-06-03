@@ -1,0 +1,14 @@
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.title{
+    font-size: 3rem;
+    font-family: "Assistant";
+    text-align: center;
+    margin:3% auto;
+    text-shadow:  2px 1px 4px #00000085;
+    direction: rtl;
+}
