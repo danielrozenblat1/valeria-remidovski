@@ -12,6 +12,7 @@
     backdrop-filter: blur(10px);
     cursor: pointer;
     direction: rtl;
+    position: relative;
     font-family: "Assistant";
   }
   
