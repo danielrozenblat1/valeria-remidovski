@@ -49,24 +49,3 @@
     opacity: 1;
   }
   
-  .button-border {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    border-radius: .5rem;
-    z-index: -1;
-  }
-  
-  .button-border::before {
-    content: "";
-    position: absolute;
-    border-radius: .5rem;
-    padding: 1px;
-    inset: 0;
-    background: linear-gradient(180deg, rgba(184, 238, 255, 0.24) 0%, rgba(184, 238, 255, 0) 100%),linear-gradient(0deg, rgba(184, 238, 255, 0.32), rgba(184, 238, 255, 0.32));
-    -webkit-mask: linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);
-    -webkit-mask-composite: xor;
-    pointer-events: none;
-  }
